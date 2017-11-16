@@ -36,7 +36,7 @@
 #'
 #' @export
 syntaxtractor <-
-	function( data_name , repo = "ajdamico/asdfree" , ref = "master" , replacements = NULL , setup_test = NULL , local_comp = FALSE ){
+	function( data_name , repo = "hannesmuehleisen/asdfree" , ref = "master" , replacements = NULL , setup_test = NULL , local_comp = FALSE ){
 	
 		if( !local_comp ){
 		
