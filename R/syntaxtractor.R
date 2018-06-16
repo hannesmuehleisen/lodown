@@ -136,7 +136,7 @@ syntaxtractor <-
 					'\nwarnings()\nlibrary(DBI)\ndb <- dbConnect( MonetDBLite::MonetDBLite() , dbdir )\ncs <- dbGetQuery( db , "' , cs_query , '" )\nprint(cs)\nstopifnot(nrow(cs) == 0)\ndbDisconnect( db , shutdown = TRUE )'
 				)
 				
-			rmd_page <- c( rmd_page , cs_lines )
+			#rmd_page <- c( rmd_page , cs_lines )
 				
 		
 		}
